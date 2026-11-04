@@ -48,6 +48,7 @@
 | **📈 Multi-Tier Analytics** | Exports chronological event logs (`.csv`), granular session profiles (`.json`), and rolling 7-day summary metrics (`.json`). |
 
 ---
+<img width="1279" height="722" alt="image" src="https://github.com/user-attachments/assets/16ff9d76-7c16-4983-b18e-d6ccade86b7a" />
 
 ## 🔒 Privacy-First Architecture
 
