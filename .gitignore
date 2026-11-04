@@ -1,0 +1,93 @@
+# ============================================================
+# FocusTrack AI - .gitignore
+# ============================================================
+
+# --- Byte-compiled / Optimized / DLL files ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# --- C/C++ Extensions & Distributions ---
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Virtual Environments ---
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Model Weights & Checkpoints ---
+# Heavy YOLO models should be downloaded at runtime, not tracked in git
+*.pt
+*.pth
+*.onnx
+*.engine
+*.bin
+yolo11*.pt
+
+# --- Ultralytics Temporary & Run Artifacts ---
+runs/
+.ultralytics/
+
+# --- Reports & Session Data ---
+# Preserve the reports folder structure, but ignore exported session data
+reports/*
+!reports/.gitkeep
+
+# --- Local User Configurations ---
+# Contains user-selected ROI coordinates on local camera resolution
+focustrack_config.json
+
+# --- Logs, Dumps & Temp Files ---
+*.log
+*.tmp
+*.temp
+error.log
+run.log
+bat_debug.log
+test_run.log
+crash.log
+output.txt
+
+# --- Operating System Artifacts ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# --- IDE & Editor Settings ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+*~
+
