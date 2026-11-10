@@ -227,4 +227,7 @@ Made with ❤️ for healthier, more focused workdays.
 ⭐ **Star this repository if you find it helpful!**
 
 </div>
+<p align="center">
+  Developed By Abu Bakar Rakib
+</p>
 
